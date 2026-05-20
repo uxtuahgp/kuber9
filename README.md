@@ -79,7 +79,7 @@ alex@uxtu-note:~/Study/kuber9hw/kuber9$ for i in km1 kw1 kw2 kw3 kw4 ; do ssh ub
 ...
 ```
 
-Однако серив на всех узлах в состоянии Failed, так как не найден конфигурационный файл /var/lib/kubelet/config.yaml
+Однако сервис на всех узлах в состоянии Failed, так как не найден конфигурационный файл /var/lib/kubelet/config.yaml
 Судя по поиску, файл создастся при инициализации кластера с помощью kubeadm
 
 8. Проинициализировал master ноду кластера
