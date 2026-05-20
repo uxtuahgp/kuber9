@@ -1,4 +1,5 @@
 # Local .terraform directories
+.service_account_key
 .terraform/
 
 # .tfstate files
